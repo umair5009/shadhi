@@ -1,0 +1,12 @@
+{
+  "name": "@shadi-hall/shared",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Business rules and enums shared by the API and the web app",
+  "type": "module",
+  "exports": {
+    "./constants": "./constants.js",
+    "./bookingFinance": "./bookingFinance.js",
+    "./format": "./format.js"
+  }
+}

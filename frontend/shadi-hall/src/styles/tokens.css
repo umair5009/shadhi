@@ -1,0 +1,99 @@
+/* Design tokens — every colour, size and shadow in the app comes from here. */
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --canvas: #f6f3ee;
+  --surface: #ffffff;
+  --surface-muted: #fbf9f5;
+  --surface-sunken: #f2eee7;
+  --overlay: rgba(30, 21, 25, 0.45);
+
+  /* Ink */
+  --ink: #1e1519;
+  --ink-2: #4e4449;
+  --ink-3: #7f7479;
+  --ink-inverse: #fbf6ee;
+
+  /* Lines */
+  --border: #e7e0d6;
+  --border-strong: #d5cabb;
+  --focus-ring: 0 0 0 3px rgba(122, 31, 61, 0.22);
+
+  /* Brand: royal maroon + gold */
+  --brand-950: #2a0916;
+  --brand-900: #3b0e20;
+  --brand-800: #4e1329;
+  --brand-700: #5c1530;
+  --brand-600: #7a1f3d;
+  --brand-500: #93294c;
+  --brand-200: #ecc9d4;
+  --brand-100: #f6e8ec;
+  --brand-50: #fbf3f5;
+  --gold-600: #9a6d1c;
+  --gold-500: #b8862b;
+  --gold-300: #e2b866;
+  --gold-100: #f7ebd2;
+
+  /* Status (with text-safe dark steps) */
+  --success-700: #1c6b45;
+  --success-500: #2f8a5b;
+  --success-100: #e2f2e9;
+  --warning-700: #8a5a00;
+  --warning-500: #c98a0b;
+  --warning-100: #fbf0d6;
+  --danger-700: #b42318;
+  --danger-500: #d6453a;
+  --danger-100: #fdebe8;
+  --info-700: #1f5a96;
+  --info-100: #e6f0fa;
+  --neutral-100: #efebe5;
+
+  /* Chart series — validated set (CVD-safe, ≥3:1 on white and on the canvas) */
+  --series-1: #3a74c4; /* money in / single series */
+  --series-2: #d05a3a; /* money out */
+  --series-3: #14937f; /* profit */
+  --chart-grid: #ebe5dc;
+  --chart-axis: #d5cabb;
+
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-md: 0.875rem;
+  --text-lg: 1rem;
+  --text-xl: 1.125rem;
+  --text-2xl: 1.375rem;
+  --text-3xl: 1.75rem;
+  --text-4xl: 2.125rem;
+
+  /* Spacing (4px grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  /* Elevation */
+  --shadow-xs: 0 1px 2px rgba(42, 9, 22, 0.05);
+  --shadow-sm: 0 1px 3px rgba(42, 9, 22, 0.06), 0 1px 2px rgba(42, 9, 22, 0.04);
+  --shadow-md: 0 8px 24px -6px rgba(42, 9, 22, 0.14), 0 2px 6px rgba(42, 9, 22, 0.05);
+  --shadow-lg: 0 24px 60px -12px rgba(42, 9, 22, 0.28);
+
+  /* Layout */
+  --sidebar-width: 256px;
+  --topbar-height: 64px;
+  --content-max: 1440px;
+
+  --transition: 140ms ease;
+}
